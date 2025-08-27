@@ -100,10 +100,10 @@ const Signup = () => {
               </label>
               <input
                 type="text"
-                name="Vyom Mehta"
+                name="fullName"
                 value={formData.fullName}
                 onChange={handleInputChange}
-                placeholder="Mary Doe"
+                placeholder="Vyom Mehta"
                 className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all ${
                   errors.fullName ? "border-red-500" : "border-gray-300"
                 }`}
